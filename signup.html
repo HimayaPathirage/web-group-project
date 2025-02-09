@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fresh Mart</title>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <style>
+            .usertype{
+                height: 35px;
+                width: 90%;
+                padding-bottom: 10%;
+                padding-left: 15px;
+                outline: 0;
+                border: 1px solid #fff;
+                color: #fff;
+                background: transparent;
+                font-size: 15px;
+                border-bottom-left-radius:30px ; 
+                border-top-right-radius: 30px;
+                align-items: center;
+                
+            }
+            .usertype option{
+                color: black;
+                
+            }
+        </style>
+        
+    </head>
+    <body>
+        <section>
+            <div class="grid-container">
+                <div class="grid-item1" style="height: 450px;">
+                    <img src="../mini_project/images/logo.png">
+                    <div class="grid-text">
+                        <h2>Profile Creation</h2><br><br>
+                        <p>Please verify your details and update the password</p><br><br>
+                        <p>Have trouble logging in? call us on <a href="#" style="color: #1a6d10;">0117894561</a>
+                            (Daily Operating hours 8.00a.m to 8.00p.m)</p>
+                    </div>
+                    <a class="back" href="index.html" style="margin-left: 75%; margin-top: 50px;"><</a>
+                </div>
+                <div class="grid-item2" style="height: 450px;">
+                    <form  method="post" id="form" action="insert.php" style="padding: 1%;">
+                        <div class="row">
+                            <div class="input-group">
+                                <label>First Name</label><br><br>
+                                <input type="text" id="fname" name="fname" placeholder="First Name" required><br><br>
+                            </div>
+                            <div class="input-group">
+                                <label>Last Name</label><br><br>
+                                <input type="text" id="lname" name="lname" placeholder="Last Name" required><br><br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-group">
+                                <label>Email</label><br><br>
+                                <input type="text" id="email" name="email" placeholder="Email*" required><br><br>
+                            </div>
+                            <div class="input-group">
+                                <label for="usertype"> User Type </label><br><br>
+                                <select  id="usertype" style="padding: 2%;padding-left: 15px"  onchange="getSelectValue()" class="usertype" name="usertype">
+                                    <option value="customer"> Customer </option>
+                                    <option value="admin" > Admin </option>
+                                </select><br><br>
+                            </div>
+                        </div><br>
+                        <hr style="height:1px;border-width:auto;background-color:rgb(196, 190, 190)"> <br>   
+                        
+                        <div class="row">
+                            <div class="input-group">
+                                <label>Password*</label><br><br>
+                                <input type="text" id="password" name="password" placeholder="Password*" required><br>
+                                <span class="error-msg" id="pswdMsg"></span> 
+                            </div>
+                            <div class="input-group">
+                                <label>Confirm Password*</label><br><br>
+                                <input type="text" id="cpassword"  placeholder="Confirm Password*" required><br>
+                                <span class="error-msg" id="cpswdMsg"></span> 
+                            </div>
+                        </div><br><br>
+                        <p>Your password must contain a minimum of 8 characters with 1 Uppercase, Numeric & Special character</p><br>
+                        <div class="input-group">
+                            <button class="btn" id="btn" style="width: 200px;" type="submit" name="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>  
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="signup.js"> </script>
+</body>
+</html>

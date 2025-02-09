@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!--Bootstrap 5 CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Font Awsome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!--boxicons link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
+</head>
+<body>
+    <!--Header Section-->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="nav-item">
+                <a href="home.html">Home</a>
+                <div class="dropdown-container">
+                    <a href="#">Categories <i class="ri-arrow-drop-down-fill"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="vegetables.php">Vegetables</a></li>
+                        <li><a href="fruits.php">Fruits</a></li>
+                        <li><a href="meats.php">Meats</a></li>
+                    </ul>
+                </div>
+                <a href="about.html" style="border-bottom: 2px solid rgb(8, 48, 10);">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <form id="form" action="search.php" method="get">
+                <div class="header-icons">
+                    <div class="search-box">
+                        <input type="text" id="search-value" name="search-value" placeholder="Search here...">
+                        <!--<a href="#"><i class="ri-search-line"></i></a>-->
+                        <button style="border-radius: 50%; background-color: rgb(11, 41, 13); color: aliceblue; " 
+                        name="search" type="submit"><i class="ri-search-line"></i></button>
+                    </div>
+                    <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                    <a href="#"><i class="ri-user-fill"></i></a>
+                </div>
+            </form>
+        </nav>
+    </header> 
+    <!--Banner Section Design-->
+    <section class="about-banner">
+        <div class="about-container">
+            <h1>About Us</h1>
+        </div>
+    </section>
+    <!--Content Section Design-->
+    <section class="about">
+        <div class="about-content"> 
+            <h2>Welcome to Fresh Mart</h2><br>
+            <p>Fresh Mart is proudly Sri Lankan, owned and operated over the last 10 years, delivering the freshest quality products, along with great value, serving thousands of Sri Lankans every day.<br><br>
+
+                As a subsidiary of the Fresh Mart Group,Fresh Mart operates 50 supermarkets; 40 of which are fully owned and 2 franchise outlets operating under the ‘Super F’ brand. Operating with the core purpose of improving the quality of life for the nation, 
+                the supermarkets are conveniently located across the country providing our shoppers with a world class retail experience.<br><br>
+                
+                With a passion for food particularly fresh food, our team of over 2500 people are at the heart of our success as we strive to provide our customers with an enjoyable shopping experience and our stakeholders with long lasting partnerships. With over 
+                3 collection centers in strategic locations Keells sources fresh produce from farmers and ensures this produce reaches the stores in 24 hours delivering on the promise of freshness. Our SLSI certified bakeries at store provide oven fresh bread and 
+                bakery products and our Good Manufacturing Practices (GMP) certified hot kitchens provide the busy customers of today with food to go.<br><br>
+                
+                Our ever-growing own label product portfolio includes over 335 products and Fresh Mart also carries a varied range of products exclusively sourced and sold at our supermarkets providing discerning customers a range of choice. Being the first supermarket 
+                to launch an online shopping platform providing customers with the facility of home delivery and click and collect, Keells also operates with state-of-the-art systems to ensure the operations run smooth providing consistent access to products customers 
+                need. The Nexus loyalty program with over 1.3 million membership provides customers with great deals and ways to save while shopping and earn points on top of that.<br><br>
+                
+                Fresh Mart was also the first retailer in Sri Lanka to commit to reduce by 50%, single use polythene bag and instore prepared food packaging by the year 2025, ensuring that as the business grows the impact on the environment is minimized and sustainable practices 
+                employed. Over 20 of our stores also use solar power relying more on renewable sources of energy as another initiative towards being sustainable.
+            </p><br>
+            <h4>Recognized for our efforts</h4><br>
+            <ul>
+                <li>Most Valuable Supermarket Brand in 2019 & 2020 by Brand Finance</li>
+                <li>One of the Top 10 Most Valuable Brands in Sri Lanka</li>
+                <li>Service Brand for the year at SLIM awards 2019 - Bronze</li>
+                <li>Innovative Brand of the year at SLIM awards 2019 - Bronze</li>
+                <li>Fresh Mart Own Label Packaging Melbourne Design Awards 2019 - Silver</li>
+            </ul><br>
+            <p class="last">Above information was last updated on 06.22.2024</p>
+        </div>
+    </section>
+    <!--Footer Section Design-->
+    <section class="footer">
+        <div class="newsletter">
+            <div><img src="images/logo.png"></div>
+            <div>
+                <input type="text" placeholder="Enter your email to subscribe to our newsletter"> 
+                <button class="newsletter-btn">Submit</button>
+            </div>
+        </div><br>
+        <div class="footer-content">
+            <div class="footer-item">
+                <p>ASP Marketing Services Pvt.Ltd<br>No.12, Vauxhall Street, Colombo 10.</p>
+                <h3><i class="ri-phone-fill"></i>+94 11 2213652</h3>
+                <p>(Daily operating hours 8.00a.m to 8.00p.m)</p>
+            </div>
+            <div class="footer-item">
+                <h4>Quick Links</h4>
+                <hr>
+                <a href="home.html">Home</a><br>
+                <a href="about.html">About</a><br>
+                <a href="contact.html">Contact</a><br>
+                <a href="login.html">Login</a><br>
+            </div>
+            <div class="footer-item">
+                <h4>Categories</h4>
+                <hr>
+                <a href="vegetables.php">Vegetables</a><br>
+                <a href="fruits.php">Fruits</a><br>
+                <a href="meats.php">Meats</a><br>
+            </div>
+            <div class="footer-item">
+                <h4>Social</h4>
+                <hr>
+                <div class="social">
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+            </div>
+                </div>
+                
+        </div>
+    </section>
+    <!--Copyright Section Design-->
+    <section class="copyright">
+        <p>Copyright <i class="ri-copyright-line"></i> Group 10 WEB Mini_Project.All Rights Reserved</p>
+    </section>
+</body>
+</html>

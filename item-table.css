@@ -1,0 +1,73 @@
+
+table {
+    border: 2px solid #000; 
+    border-collapse: collapse; 
+    padding: 20%;
+    
+}
+table th, table td {
+    border: 2px solid #000; 
+    padding: 10px; 
+    text-align: center;
+    align-items: center;
+}
+.table-img {
+    width: 55px; 
+    height: 55px; 
+}
+.my-btn{
+    background-color : rgb(9, 104, 9);
+    color : white;
+    padding : 4px 8px;
+    text-decoration : none;
+    font-family : calibri,sans-serif;
+    border-radius : 5px;
+    
+}
+.my-btn:hover{
+    background-color : rgb(122, 196, 39);
+}
+.my-delete-btn{
+    background-color : rgb(156, 11, 19);
+    color : white;
+    padding : 4px 8px;
+    text-decoration : none;
+    font-family : calibri,sans-serif;
+    border-radius : 5px;
+}
+.my-delete-btn:hover{
+    background-color : rgb(209, 42, 42);
+}
+.my-detail-btn{
+    background-color : rgb(11, 35, 170);
+    color : white;
+    padding : 4px 8px;
+    text-decoration : none;
+    font-family : calibri,sans-serif;
+    border-radius : 5px;
+}
+.my-detail-btn:hover{
+    background-color : rgb(42, 101, 209);
+}
+.my-edit-btn{
+    background-color : rgb(33, 97, 33);
+    color : white;
+    padding : 4px 8px;
+    text-decoration : none;
+    font-family : calibri,sans-serif;
+    border-radius : 5px;
+}
+.my-edit-btn:hover{
+    background-color : rgb(22, 173, 67);
+}
+.add{
+    background-color : rgba(156, 8, 144, 0.623);
+    color : white;
+    padding : 4px 8px;
+    text-decoration : none;
+    font-family : calibri,sans-serif;
+    border-radius : 5px;
+}
+.add:hover{
+    background-color : rgb(207, 49, 212);
+}
