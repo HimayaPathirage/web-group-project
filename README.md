@@ -1,4 +1,4 @@
-#🛒 Fresh Mart — Online Grocery Store
+##🛒 Fresh Mart — Online Grocery Store
 
 A full-stack web application developed as a group project that provides a complete online grocery shopping experience. Fresh Mart allows customers to browse and search for fresh vegetables, fruits, and meats, while administrators can efficiently manage product inventory through a dedicated dashboard.
 
@@ -77,9 +77,13 @@ The system is powered by a PHP backend with MySQL database integration and runs 
 Customers can:
 
 ✔ Browse all product categories
+
 ✔ Search products
+
 ✔ Register and log in
+
 ✔ Manage profile information
+
 ✔ View featured products
 
 ---
@@ -111,10 +115,15 @@ Administrators can:
 Through this project we gained practical experience in:
 
 ✅ Full-stack web development
+
 ✅ Database management with MySQL
+
 ✅ Authentication and user role management
+
 ✅ CRUD operations
+
 ✅ Responsive UI design
+
 ✅ Team collaboration and project development
 
 ---
